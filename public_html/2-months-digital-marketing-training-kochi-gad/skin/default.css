@@ -1,0 +1,76 @@
+/*
+Color
+=========================== */
+a,
+a:focus,
+a:hover,
+.navbar-inverse .navbar-nav li a:hover,
+.nav-tabs li a:hover,
+.nav-tabs li.active a,
+.nav-tabs li.active a:hover,
+.nav-tabs li.active a:focus,
+.nav-tabs li.active a:active,
+.image-link:hover,
+.pricing-head .price,
+.validation,
+.comment-wrapper .media h5 a:hover{
+	color:#8cc641;
+}
+
+/*
+Border color
+=========================== */
+.navbar-inverse .navbar-nav li.active a,
+.navbar-inverse .navbar-nav li.active a:hover,
+.navbar-inverse .navbar-nav li.active a:focus,
+.navbar-inverse .navbar-nav li.active a:active,
+.navbar-inverse .navbar-nav li a.selected,
+.navbar-inverse .navbar-nav li a.selected:hover,
+.navbar-inverse .navbar-nav li a.selected:focus,
+.navbar-inverse .navbar-nav li a.selected:active,
+.navbar-inverse .navbar-nav li.dropdown a.dropdown-toggle:focus,
+.navbar-inverse .navbar-nav li.dropdown a.dropdown-toggle:active,
+.image-link:hover,
+.form-control:focus,
+.navbar-header .navbar-toggle:hover{
+	border-color:#0772b9;
+}
+
+/*
+Background color
+=========================== */
+#home,
+.color-bg,
+.inner-head,
+.heading span.heding-style,
+.pricing-box.featured,
+.navbar-header .navbar-toggle:hover,
+span.widget-style,
+.icon-service,
+#demo{
+	background-color:#456121;
+}
+
+/*
+Color on mobile
+=========================== */
+@media (max-width: 767px) {
+	.navbar-inverse .navbar-nav li a:hover,
+	.navbar-inverse .navbar-nav li.active a,
+	.navbar-inverse .navbar-nav li.active a:hover,
+	.navbar-inverse .navbar-nav li.active a:focus,
+	.navbar-inverse .navbar-nav li.active a:active,
+	.navbar-inverse .navbar-nav li a.selected,
+	.navbar-inverse .navbar-nav li a.selected:hover,
+	.navbar-inverse .navbar-nav li a.selected:focus,
+	.navbar-inverse .navbar-nav li a.selected:active,
+	.navbar-inverse .navbar-nav li.dropdown a.dropdown-toggle:focus,
+	.navbar-inverse .navbar-nav li.dropdown a.dropdown-toggle:active,
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover{
+		background-color: #f5f5f5;
+    	border-bottom: 1px solid #0a96dd;
+	}
+	.navbar-inverse .navbar-nav li a:hover{
+		color:#fff;
+	}
+}

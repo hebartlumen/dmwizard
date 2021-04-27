@@ -1,0 +1,200 @@
+.faculty-img{margin:0 !important;}
+@media (min-width:1200px){
+	img.img-responsive{margin:0 0 0 15px;width:80%}
+	.faculty-img{margin:0 !important;}
+	.navbar-brand .img-responsive{width:100%;}
+}
+@media (min-width:992px) and (max-width:1199px){#tabs li a{width:234px}
+img.img-responsive{margin:0 0 0 15px;width:80%}
+h2.feature{font-size:42px;margin-top:40px}
+.nav-tabs>li>a{font-size:17px}
+.nav-tabs.nav>li>a{padding:10px 73.1px}
+.about-qcmore{padding-bottom:70px}
+.timer.light{font-size:29px}
+.about-qcmore p{font-size:16.4px}
+p.Choosepera{font-size:23px;margin-bottom:60px}
+p.looking{font-size:45px}
+.col-lg-6>h2{font-size:14px;padding:15px 11px 16px 50px}
+.row.bottompadding{padding-bottom:90px}
+h2.Future-Trainees{padding-top:0}
+h2.beinformed{font-size:45px;margin-bottom:15px;margin-top:14px}
+p.contactpara{margin-top:20px}
+p.mobnumber{font-size:23px}
+p.footer-last{color:#fff;font-size:18px}
+.socialicons{padding:12px 0}
+}
+@media (min-width:768px) and (max-width:991px){.fixedright{top:315px}
+#tabs li a{width:179px}
+img.img-responsive{width:66.5%;margin:0 0 0 15px}
+.navbar-brand img {width: 55%;}
+.navbar{min-height:72px}
+.carousel-caption h3{font-size:76.51px;margin-top:0}
+.carousel-caption p{font-size:46.07px}
+.nav.navbar-nav.navbar-right{margin-top:-20px}
+.navbar-inverse .navbar-nav>li>a {font-size: 14px;padding: 0 6px;}
+h2.feature{font-size:40px;margin-top:20px}
+.aboutpera{margin-bottom:25px}
+h2.beinformed, p.Choosepera, p.looking{margin-bottom:15px}
+.nav-tabs>li>a{font-size:14px}
+.nav-tabs.nav>li>a{padding:10px 53.9px}
+.about-qcmore{padding-bottom:50px}
+.sep-md{padding-top:15px}
+.timer.light{font-size:35px}
+.about-qcmore p{font-size:14.4px}
+p.Choosepera{font-size:20px}
+p.looking{font-size:40px;text-align:center}
+.col-lg-6>h2{font-size:18px;padding:16px 11px 16px 67px}
+.row.bottompadding{padding-bottom:45px}
+h2.Future-Trainees{font-size:22px;padding-top:0}
+h2.beinformed{font-size:40px;margin-top:10px}
+.form-control{height:50px}
+.form-control::-moz-placeholder{font-size:16px}
+p.contactpara{font-size:20px;margin-top:15px}
+p.mobnumber{font-size:18px}
+.socialicons{padding:10px 0}
+p.footer-last{font-size:17px;padding:15px 0}
+}
+@media (max-width:767px){
+#tabs, #tabs li{border:none}
+#tabs li, #tabs li a{width:100%}
+.nav.nav-tabs>li, p.looking, p.timer-title{text-align:center}
+.forms .formbox{font-size:20px;background-size:55% 98%}
+h2.feature{padding:50px 0 15px}
+p.looking{padding:50px 45px 0 0}
+.fixedright{top:225px}
+#tabs_wrapper{padding-left:140px}
+img.img-responsive{margin:0 0 0 15px;width:44.5%}
+.navbar{margin:0;min-height:50px}
+.navbar-collapse .nav.navbar-nav.navbar-right a{border-bottom:1px solid #0996dd;text-align:center}
+.nav.navbar-nav.navbar-right{margin-bottom:0;margin-top:0}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{background-color:#0996dd}
+.navbar-header{background:#0996dd;border-bottom:1px solid #fff}
+.navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{border-top:none}
+.carousel-caption h3{font-size:64.51px;margin-bottom:0}
+.carousel-caption p{font-size:31.07px}
+h2.feature{font-size:36px;margin-bottom:0;margin-top:15px}
+.nav.nav-tabs>li{width:100%}
+.about-qcmore p{font-size:16.4px}
+.timer.light{font-size:25px}
+.nav-tabs>li>a{border-left:1px solid #fff;font-size:16px}
+p.Choosepera{margin-bottom:5px;font-size:16px}
+p.looking{font-size:35px;margin-bottom:15px}
+.col-lg-6>h2{font-size:16px;padding:15px 26px 22px 88px; background-color: #35aeff;}
+.about-qcmore{padding-bottom:25px;background:rgba(0, 0, 0, 0) url("../images/background1.jpg") no-repeat fixed 100% 100%;}
+.row.bottompadding{padding-bottom:10px}
+.aboutpera{margin-bottom:20px}
+h2.Future-Trainees{font-size:18px;padding-top:0;margin-bottom:0;margin-top:15px}
+h2.beinformed{font-size:30px;margin-bottom:10px;margin-top:5px}
+p.contactpara, p.mobnumber{font-size:18px}
+.form-control{height:45px}
+.btn{margin-top:5px;padding:3px 30px}
+p.contactpara{margin-top:10px}
+.socialicons{padding-bottom:15px;padding-top:5px}
+p.footer-last{font-size:13px;padding:15px 0}
+.fa{font-size:20px;height:31px;width:33px}
+.form-control::-moz-placeholder{font-size:15px}
+#form-div div.col-sm-3{margin-bottom:10px;}
+#form-div div.col-sm-3:last-child{text-align:center;}
+}
+@media (max-width:768px){.mob-none{display:none;}
+.mob-slider{display:block !important;}
+.navbar-inverse .navbar-nav>li>a{font-size:12px;}
+.relative.form-holder{height:auto;}
+.contact-form{position:static;overflow:hidden;}
+.about-qcmore{background:url(../images/background1.jpg) center center no-repeat fixed;}
+.Choose-Course{background:url(../images/background2.jpg) center center no-repeat fixed;background-size:cover;}
+.faq-bg{background:url(../images/faqbg.jpg) center center no-repeat fixed;}
+.Be-Informed{background:url(../images/background3.jpg) center center no-repeat fixed;background-size:cover;}
+.testmonial-slider .testmonial-text h1{font-size:26px;}
+.testmonial-slider .testmonial-text h2{font-size:16px;}
+.testmonial-slider .testmonial-text p{font-size:15px;}
+.contact-form .form-control{font-size:14px;margin-bottom:6px !important;}
+}
+
+@media (max-width:767px){
+.nav>li.dropdown {display: block;}
+.navbar-inverse .navbar-nav>li>a {padding: 8px 0 !important;}
+.panel-heading {padding: 10px}
+.panel-title {font-size: 13px;}
+.panel-body {font-size: 13px;line-height: 16px;padding: 10px;}
+.social-front-top i.fa {padding: 8px 0; font-size: 16px;}
+.social-front-top li {margin: 0 6px;}
+li a, .dropbtn {padding: 0 !important;}
+.hide-nav {display: none;}
+}
+
+@media (max-width:480px){
+
+#form-div{
+	text-align: left;
+}
+#form-div .cap:nth-child(2){
+	float: right;
+}
+.flft{
+	float: right !important;
+}
+#form-div img.capcha{
+	margin-right: 15px !important;
+}
+.only-mob-dis{display: block !important;}
+.only-mob-hid{display: none !important;}
+
+#tabs, #tabs li{border:none}
+#tabs li, #tabs li a{width:100%}
+.forms .formbox{font-size:20px;background-size:55% 98%}
+h2.feature{padding:50px 0 15px}
+p.looking{padding:50px 45px 0 0}
+.fixedright{top:105px}
+#tabs_wrapper{padding-left:0}
+img.img-responsive{margin:0 0 0 15px;width:44.5%}
+.navbar{margin:0;min-height:50px}
+.navbar-collapse .nav.navbar-nav.navbar-right a{border-bottom:1px solid #456121;text-align:center}
+.nav.navbar-nav.navbar-right{margin-bottom:0;margin-top:0}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover{background-color:#8cc641}
+.navbar-header{background:#fff;border-bottom:0px solid #fff;}
+.navbar-inverse, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{border-top:none}
+.carousel-caption h3{font-size:40.51px;margin-bottom:0}
+h2.feature{font-size:25px;margin-bottom:0;margin-top:15px}
+.nav.nav-tabs>li{width:100%;text-align:center}
+.sep-md{padding-bottom:5px;padding-top:10px}
+p.looking{text-align:center;font-size:25px;margin-bottom:15px}
+p.Choosepera{margin-bottom:5px;font-size:16px}
+.about-qcmore{padding-bottom:25px;background:rgba(0, 0, 0, 0) url("../images/background1.jpg") no-repeat fixed 100% 100%;}
+.row.bottompadding{padding-bottom:15px}
+h2.Future-Trainees{padding-top:0;font-size:20px;margin-top:25px}
+h2.beinformed{margin-bottom:20px;margin-top:0;font-size:28px}
+p.contactpara{margin-top:10px;font-size:15px}
+.col-lg-6>h2{color:#fff;font-size:13px;margin:0;padding:11px 14px 10px 34px}
+.about-qcmore p{font-size:13.4px;text-align:justify}
+.nav-tabs>li>a{border-left:1px solid #fff;font-size:14px}
+.timer.light{font-size:18px}
+.form-control::-moz-placeholder{font-size:15px}
+.form-control{height:45px}
+.btn-default{font-size:18px}
+.btn{padding:3px 30px}
+p.mobnumber{font-size:16px}
+.socialicons{padding:10px 0}
+.fa{font-size:20px;height:31px;width:33px}
+p.footer-last{font-size:13px;padding:15px 0}
+.aboutpera{margin-bottom:25px}
+.nav-tabs.nav>li>a{padding:8px 69.1px}
+p.timer-title{text-align:center}
+.testmonial-slider .testimages-area{text-align:center;}
+.testmonial-slider .testimages-area .testmonial-img{float:none;display:-webkit-inline-box;}
+.testmonial-slider .testmonial-text p{text-align:center;}
+p.Choosepera{margin-bottom:25px;}
+header#home{margin-top: 70px;}
+.avenir-next-lt-pro-27{font-size:16px;}
+.contact-form .form-control{height:35px!important;margin-bottom: 10px !important;}
+.contact-form .sbmt{font-size: 18px;width: 100%;margin-top: 10px;}
+.btn-default{font-size:15px;}
+.contact-cpt h3{font-size:17px;line-height:23px;margin-top:20px;}
+.form-control{font-size:16px;}
+.pop-over-faculty p.detail-about{white-space: normal;}
+.mobile-wrapper{white-space:nowrap; overflow-x:scroll!important; overflow-y:hidden;}
+.mobile-wrapper .mobile-scroll-hor{display:inline-block;}
+.mobile-scroll-Indicators{margin-top: -20px;}
+.mobile-scroll-Indicators .fa{display:none!important; background:transparent;font-size: 12px; width: 10px; opacity: 0.6;padding-top:0;}
+}
+.cap{margin-bottom:7px !important;}

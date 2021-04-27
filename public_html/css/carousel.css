@@ -1,0 +1,25 @@
+body{padding-bottom:40px;color:#5a5a5a;}
+.navbar-wrapper{position:absolute;top:0;right:0;left:0;z-index:20;}
+.navbar-wrapper>.container{padding-right:0;padding-left:0;}
+.navbar-wrapper .navbar{padding-right:15px;padding-left:15px;}
+.navbar-wrapper .navbar .container{width:auto;}
+html, body{height:100%;margin:0;padding:0;}
+.carousel, .item, .active{height:100%;}
+.carousel-inner{height:100%;}
+.carousel-caption{z-index:10;}
+.carousel .item{background-color:#777;}
+.carousel .carousel-inner .bg{background-repeat:no-repeat;background-size:cover;}
+.marketing .col-lg-4{margin-bottom:20px;text-align:center;}
+.marketing h2{font-weight:normal;}
+.marketing .col-lg-4 p{margin-right:10px;margin-left:10px;}
+.featurette-divider{margin:80px 0;}
+.featurette-heading{font-weight:300;line-height:1;letter-spacing:-1px;}
+@media (min-width:768px){.navbar-wrapper{margin-top:20px;}
+.navbar-wrapper .container{padding-right:15px;padding-left:15px;}
+.navbar-wrapper .navbar{padding-right:0;padding-left:0;}
+.navbar-wrapper .navbar{border-radius:4px;}
+.carousel-caption p{margin-bottom:20px;font-size:21px;line-height:1.4;}
+.featurette-heading{font-size:50px;}
+}
+@media (min-width:992px){.featurette-heading{margin-top:120px;}
+}

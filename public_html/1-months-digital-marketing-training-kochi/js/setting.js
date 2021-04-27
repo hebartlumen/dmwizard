@@ -1,0 +1,1 @@
+(function($){'use strict';$('#home').parallax("50%",0,0.1,true);$('.parallax').parallax("50%",0,0.1,true);$('.inner-head').parallax("50%",0,0.1,true);})(jQuery);

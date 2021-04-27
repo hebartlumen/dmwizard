@@ -1,0 +1,542 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	-moz-transition: All .8s ease;
+	-webkit-transition: All .8s ease;
+	transition: All .8s ease;
+}
+
+
+
+.default-nav-wrapper.col-md-12.col-xs-12.nav-center{
+	max-height: 46px;
+}
+#site-navigation .sub-menu>li>a{
+    padding: 8px 15px !important;	
+}
+#site-navigation li:hover > a{
+	color:#3d3242;
+}
+#site-navigation ul ul li:hover > a {
+    background: transparent;
+	color:#fff;
+}
+#site-navigation ul ul ul {
+    left: 0;
+    border: none;
+    top: 33px;
+    max-width: 160px !important;
+    padding: 8px 15px;
+	min-width: 160px !important;
+	border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+}
+#site-navigation ul ul ul li a {
+    padding: 8px 0px !important;
+}
+
+.nav-center {
+	text-align: center;
+}
+#site-navigation {
+	float: none;
+	margin-top: 0;
+}
+#site-navigation ul > li > a {
+	font-weight: 700;
+	color: #3d3242;
+	font-size: 16px;
+	line-height: 46px;
+	/*padding: 8px 15px;*/
+	padding:0 15px;
+	display: block;
+}
+#site-navigation ul > li > a:hover {
+	border: none;
+	color: #fff;
+	background: #8cc641;
+}
+#social-icons {
+	display: none;
+}
+#header-2 {
+	padding-top: 0;
+}
+#header-top {
+	background: #8cc641 !important;
+	padding-top: 0;
+}
+.logo>a {
+	background: #fff;
+	display: inline-block;
+	padding: 12px 20px 0;
+}
+.logo-right {
+	text-align: right;
+	padding-top: 0;
+	color: #fff;
+	font-weight: 700;
+	font-size: 18px;
+}
+.mail-number {
+	float: right;
+	padding-top: 20px;
+	width: 100%
+}
+.mails {
+	width: 42%;
+}
+.mails, .number {
+	float: left;
+	text-align: center;
+}
+.mails>a, .number>a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 16px;
+	margin-bottom: 5px;
+	display: block;
+}
+span.icon-block {
+	display: block;
+	font-size: 30px;
+}
+.number, .number>i {
+	font-size: 16px;
+	position: relative;
+	top: 0;
+}
+.number {
+	width: 58%;
+}
+.enquire-form, span.form-close {
+	font-weight: 400;
+	position: absolute
+}
+.enquire-box {
+	float: right;
+}
+.logo-right span.enquire-now {
+	color: #426f0a;
+	margin: 0 0 0 30px;
+	display: inline-block;
+	position: relative;
+	top: 0;
+	width: 110px;
+}
+.logo-right span.enquire-now::after {
+	position: absolute;
+	bottom: -15px;
+	content: "";
+	border-top: 15px solid #ff1a0f;
+	border-left: 55px solid transparent;
+	border-right: 55px solid transparent;
+	left: 0
+}
+.enquire-now>a {
+	background: #ff1a0f;
+	text-decoration: none;
+	padding: 10px;
+	font-size: 14px;
+	display: block;
+	color: #fff;
+}
+.enquire-form {
+	top: -373px;
+	right: 0;
+	z-index: 9999;
+	background: #7aa542;
+	padding: 20px 10px;
+	text-align: left;
+	font-size: 14px;
+	color: #000;
+	-moz-transition: All .8s ease;
+	-webkit-transition: All .8s ease;
+	transition: All .8s ease;
+	width: 250px
+}
+.enquire-form>h4 {
+	color: #fff;
+	margin: 0 0 10px
+}
+.enquire-form input {
+	width: 100%;
+	padding: 8px 10px;
+	margin: 0 0 5px;
+	border: 0;
+	font-size: 12px;
+	height: 34px
+}
+.enquire-form textarea {
+	height: 100px;
+	padding: 6px 10px;
+	resize: none;
+	font-size: 12px;
+	width: 100%
+}
+.enquire-form button {
+	border: 0;
+	background: #8cc641;
+	color: #fff;
+	box-shadow: none;
+	margin: 5px 0 0;
+	border-radius: 0;
+	text-shadow: none;
+	padding: 8px 10px
+}
+.open-form {
+	top: 0
+}
+span.form-close {
+	right: 0;
+	top: 0;
+	background: #8cc641;
+	padding: 0 9px 5px 12px;
+	border-right: 1px solid #7aa542;
+	cursor: pointer
+}
+div.wpcf7-mail-sent-ok {
+	border: 2px solid #398f14;
+	color: #fff;
+	font-size: 14px
+}
+span.success-msg {
+	position: absolute;
+	right: 15px;
+	top: 65px;
+	font-size: 14px;
+	z-index: 9
+}
+.main_logo {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 17px;
+}
+.wrap-head {
+	background: #8cc641;
+}
+.wrap {
+	width: 100%;
+	float: left;
+}
+.wrap-in {
+	width: 90%;
+	max-width: 1100px;
+	margin: 0 auto
+}
+/*BreadCrumb CSS */
+.sub-head {
+	background: #efefef;
+	float: left;
+	width: 100%;
+	padding: 20px 0;
+	margin: 0 0 -10px
+}
+.sub-page-head {
+	float: left;
+	font-size: 50px
+}
+.breadcrumb-main {
+	float: right
+}
+.breadcrumb {
+	padding: 18px 15px;
+	margin-bottom: 0;
+	background: 0 0
+}
+.breadcrumb-item {
+	font-size: 16px
+}
+.breadcrumb-item a {
+	text-decoration: none;
+	background: #fff;
+	padding: 10px;
+	border-radius: 8px;
+	display: inline-block
+}
+.breadcrumb>li.breadcrumb-item:before {
+	content: ""
+}
+.breadcrumb>li.breadcrumb-item+li.breadcrumb-item:before {
+	padding: 0 15px 0 20px;
+	color: #ccc;
+	content: "/\00a0"
+}
+/*BreadCrumb CSS */
+
+
+.breadcrumbs {
+	background: #efefef;
+	padding: 50px 0;
+	border-bottom: #8cc641 5px solid;
+	margin-top: -5px;
+}
+.breadcrumbs .container {
+	padding: 0 55px;
+	text-align: right;
+}
+.breadcrumbs span, .breadcrumbs .home {
+	font-size: 18px;
+	font-family: "Open Sans";
+	font-weight: 300;
+	margin: 0 3px;
+	color: #777;
+}
+.breadcrumbs .home {
+	text-decoration: none;
+	background: #fff;
+	padding: 10px;
+	border-radius: 8px;
+	display: inline-block;
+}
+span.slash {
+	margin: 0 0 0 9px;
+}
+/* 14 July 2017 */
+#site-navigation ul ul {
+	top: 3em;
+    border-top: none;
+}
+.slider-wrapper {
+	border: none;
+}
+#site-navigation .sub-menu {
+	background: #8cc641;
+	min-width: 240px;
+}
+#site-navigation ul.menu li:hover a, #site--navigation div.menu li:hover a {
+	padding-bottom: 0;
+}
+#site-navigation .sub-menu>li {
+	display: block;
+	width: 100%;
+}
+#site-navigation .sub-menu>li>a {
+	padding: 0;
+	font-weight: 400;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	line-height: 1.42857143;
+}
+#site-navigation .sub-menu>li>a:hover {
+	padding: 8px 15px;
+	line-height: 1.42857143;
+}
+
+/* 14 July 2017 */
+
+
+
+
+@media only screen and (max-width:1280px), only screen and (max-device-width:1280px) {
+.wrap-in {
+	width: 92%;
+	margin: 0 auto
+}
+}
+
+@media (max-width:1199px) {
+}
+
+@media (max-width:991px) {
+.breadcrumbs span, .breadcrumbs .home.current-item {
+	font-size: 14px;
+}
+.breadcrumbs .container {
+	padding: 0 26px;
+	text-align: left;
+}
+/*.mails>a, .number>a {
+	font-weight:500;
+	font-size:14px;	
+}*/
+.logo>a {
+	min-height: 90px;
+}
+.mails {
+	width: 43%;
+}
+.number {
+	width: 57%;
+}
+}
+
+@media (max-width:767px) {
+.wrap-in {
+	width: 100%
+}
+h1.menu-toggle {
+	text-transform: none;
+	width: 100%;
+	padding: 0;
+	margin: 0 -20px;
+	top: 0;
+	font-size: 15px;
+	color: #231f20;
+	font-weight: 300;
+	line-height: 40px;
+	text-align: left;
+}
+.menu-toggle:before {
+	content: "";
+	margin: 0;
+}
+.toggle-icon {
+	margin: 12px -15px 0 0;
+	right: -20px;
+	color: #000;
+	padding: 0;
+}
+.menu-header-menu-container {
+	margin: 0 -22px 0 -15px;
+}
+.navbar-toggle .icon-bar {
+	background: #231f20;
+}
+#site-navigation ul.menu li a, #site--navigation div.menu li a {
+	padding: 0;
+}
+.logo {
+	text-align: center;
+}
+.mails {
+	width: 42%;
+}
+.number {
+	width: 58%;
+}
+.enquire-box-main, .navbar-nav .open .dropdown-menu {
+	text-align: center;
+}
+.enquire-box {
+	float: none;
+	display: inline-block;
+}
+.enquire-form {
+	top: 0;
+	right: -250px;
+	margin: 0;
+}
+.open-form {
+	right: 0;
+}
+.logo-left, .logo-right {
+	text-align: center;
+	padding: 0;
+	margin-bottom: 8px;
+	float: left;
+	width: 100%;
+}
+#page {
+	overflow: hidden;
+}
+.logo-right span.enquire-now::after {
+	border: 0;
+}
+.main_logo {
+	max-width: 90%;
+	margin-bottom: 7px;
+}
+.logo-right span.enquire-now {
+	margin: 40px 0 0;
+}
+#site-navigation li {
+	text-align: center;
+	margin-left: 0;
+	position: relative;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-top: rgba(0,0,0,.2) 1px solid;
+}
+#site-navigation li:first-child {
+	border: 0;
+}
+}
+
+@media(max-width:500px) {
+.logo>a {
+	margin: 0 -20px;
+	min-height: 60px;
+	display: block;
+	text-align: left
+}
+.logo>a>img {
+	max-width: 35%
+}
+.logo-left, .logo-right {
+	position: initial
+}
+.mail-number-main {
+	width: 100%
+}
+.mails>a, .number {
+	font-size: 14px;
+	font-weight: 400
+}
+span.icon-block {
+	font-size: 20px
+}
+.enquire-box-main {
+	text-align: right;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 999;
+	width: 50%
+}
+.enquire-box {
+	font-weight: 400
+}
+.logo-right span.enquire-now::after {
+	border-top: 15px solid #ff1a0f;
+	border-left: 55px solid transparent;
+	border-right: 55px solid transparent
+}
+.logo-right span.enquire-now {
+	margin: 0
+}
+.navbar-default .navbar-brand {
+	font-weight: 600
+}
+.wrap-brands img {
+	width: 46%;
+	height: auto;
+	margin: 0 0 20px
+}
+.slider-text-box-top h2 {
+	font-size: 26px
+}
+.slider-text-box-top p {
+	font-size: 16px
+}
+.enquire-form {
+	right: 0;
+	width: 250px;
+	margin: 0;
+	top: -373px
+}
+.open-form {
+	right: 0;
+	top: 0
+}
+.course-sec-main {
+	width: 100%
+}
+.sub-page-head {
+	font-size: 30px
+}
+span.success-msg {
+	color: #3b3c3d;
+	z-index: 9999;
+	right: 0;
+	top: 45px;
+	font-size: 13px
+}
+.mails>a, .number>a {
+	font-size: 14px
+}
+.navbar-default .navbar-brand {
+	font-weight: 600;
+}
+}
